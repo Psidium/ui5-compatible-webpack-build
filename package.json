@@ -1,10 +1,10 @@
 {
-  "name": "ui5-module-for-umd-webpack-plugin",
+  "name": "ui5-compatible-webpack-build",
   "version": "0.0.1",
   "description": "Webpack plugin to generate umd libraries that can be imported with OpenUI5 module system",
   "main": "dist/UI5ModuleForUmdPlugin.js",
   "types": "dist/UI5ModuleForUmdPlugin.d.ts",
-  "repository": "github.com/Psidium/ui5-module-for-umd-webpack-plugin",
+  "repository": "https://github.com/Psidium/ui5-compatible-webpack-build",
   "author": "SAP SE",
   "license": "MIT",
   "private": false,
@@ -13,7 +13,9 @@
   },
   "devDependencies": {
     "@types/webpack": "^4.41.22",
-    "typescript": "^4.0.2",
+    "typescript": "^4.0.2"
+  },
+  "peerDependencies": {
     "webpack": "^4.44.1"
   }
 }
