@@ -36,6 +36,10 @@ module.exports = function(webpackEnv) {
 
 3. use the output file as you see fit
 
+# Sample repo
+
+TODO.
+
 # Caveats
 
 This repository is using Webpack 4 hooks, but when Webpack 5 comes out, it will have to be changed to use the new JavascriptModules hooks. Only to avoid using deprecated code, as it will still work.
@@ -43,6 +47,7 @@ This repository is using Webpack 4 hooks, but when Webpack 5 comes out, it will 
 # References
 
 https://github.com/nhn/tui.webpack.safe-umd-plugin : I read this repo to understand how to hook into the UMD building phase
+
 https://github.com/johnagan/clean-webpack-plugin : I read this repo to understand how to make a Webpack plugin in TypeScript.
 
 # License
