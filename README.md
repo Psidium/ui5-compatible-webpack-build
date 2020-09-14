@@ -1,7 +1,8 @@
 # ui5-compatible-webpack-build
-Plugin adding support for OpenUI5/SAPUI5 module system in webpack build artifacts.
 
-Have you ever wanted to load the result of a webpack build into a UI5 file? If so this plugin is for you.
+Plugin adding support for the OpenUI5/SAPUI5 module system in webpack build artifacts.
+
+Have you ever wanted to load the result of a webpack build into a UI5 file? If so, this plugin is for you.
 
 # Installing
 
@@ -34,7 +35,7 @@ module.exports = function(webpackEnv) {
   }
 ```
 
-3. use the output file as you see fit
+3. Use the output file as you see fit
 
 # Sample repo
 
@@ -46,7 +47,7 @@ This repository is using Webpack 4 hooks, but when Webpack 5 comes out, it will 
 
 # References
 
-https://github.com/nhn/tui.webpack.safe-umd-plugin : I read this repo to understand how to hook into the UMD building phase
+https://github.com/nhn/tui.webpack.safe-umd-plugin : I read this repo to understand how to hook into the UMD building phase.
 
 https://github.com/johnagan/clean-webpack-plugin : I read this repo to understand how to make a Webpack plugin in TypeScript.
 
